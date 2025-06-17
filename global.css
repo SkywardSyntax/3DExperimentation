@@ -1,7 +1,9 @@
-body {
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
-  margin: 0 auto;
   font-size: 16px;
   line-height: 1.65;
   word-break: break-word;
@@ -11,4 +13,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   hyphens: auto;
+}
+
+* {
+  box-sizing: border-box;
 }
